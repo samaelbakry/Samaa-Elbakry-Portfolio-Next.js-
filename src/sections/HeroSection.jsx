@@ -1,9 +1,15 @@
+"use client"
 import Button from "@/components/button/Button";
 import HeroExperience from "@/components/heroModels/HeroExperience";
 import { words } from "@/constants";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap"
 import React from "react";
 
 const HeroSection = () => {
+  useGSAP(()=>{
+    gsap.fromTo(".hero-text h1" , {opacity:0 , y:50} , {opacity:1 , y:0, duration:1 , ease:"power2.inOut" ,stagger:0.2})
+  })
   return (
     <>
       <section id="hero" className="overflow-hidden relative">
