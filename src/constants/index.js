@@ -10,11 +10,7 @@ const navLinks = [
   {
     name: "Skills",
     link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  }
 ];
 
 const words = [
@@ -37,55 +33,57 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
     imgPath: "/images/logos/company-logo-9.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/git.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/github.webp",
   },
+  {
+    imgPath: "/images/logos/heroui.png",
+  },
+  {
+    imgPath: "/images/logos/react.png",
+  },
+  {
+    imgPath: "/images/logos/tanstack.png",
+  },
+  {
+    imgPath: "/images/logos/next.png",
+  },
+  {
+    imgPath: "/images/logos/shadcn.png",
+  },
+  {
+    imgPath: "/images/logos/tailwind.png",
+  },
+  {
+    imgPath: "/images/logos/bootstrap.png",
+  },
+  {
+    imgPath: "/images/logos/typescript.png",
+  },
+  
+
 ];
 
 const abilities = [
   {
+    imgPath: "/images/ui.png",
+    title: "UI Precision",
+    desc: "Turning designs into pixel-perfect, responsive user interfaces.",
+  },
+  {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Performance Focused",
+    desc: "Optimizing web apps for speed, smooth interactions, and better user experience.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
-  },
-  {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/mindset.png",
+    title: "Growth Mindset",
+    desc: "Constantly learning, building projects, and pushing my limits as a developer.",
   },
 ];
 
