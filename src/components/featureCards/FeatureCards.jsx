@@ -4,8 +4,8 @@ import React from "react";
 const FeatureCards = () => {
   return (
     <>
-      <div className="w-full padding-x-lg">
-        <div className="mx-auto grid-3-colس">
+      <div id="skills" className="w-full padding-x-lg">
+        <div className="mx-auto grid-3-cols">
           {abilities.map(({ imgPath, title, desc }) => (
             <div
               key={title}

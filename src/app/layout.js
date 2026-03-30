@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import ShowCaseSection from "@/sections/ShowCaseSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Samaa Elbakry Portfolio",
   description: "Samaa Elbakry Portfolio",
+  icons: {
+    icon: "/code2.png",
+  },
 };
 
 export default function RootLayout({ children }) {

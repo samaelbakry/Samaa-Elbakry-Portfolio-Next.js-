@@ -162,7 +162,7 @@ section {
     }
 
     .first-project-wrapper {
-      @apply h-full flex flex-col justify-between xl:w-[60%];
+      @apply h-full flex flex-col  xl:w-[60%] gap-5;
 
       .image-wrapper {
         @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
@@ -173,7 +173,7 @@ section {
       }
 
       .text-content {
-        @apply space-y-5 mt-5;
+        @apply space-y-2 my-5;
 
         .badges {
           @apply flex gap-2 mb-4;
