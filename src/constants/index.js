@@ -243,21 +243,16 @@ const testimonials = [
 ];
 
 const socialImgs = [
+  
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link:"https://github.com/samaelbakry?tab=repositories"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link:"https://www.linkedin.com/in/sama-ibrahim-elbakry-b76b05371/"
   },
 ];
 

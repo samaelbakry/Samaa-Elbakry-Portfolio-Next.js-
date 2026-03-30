@@ -15,7 +15,7 @@ export const metadata = {
   title: "Samaa Elbakry Portfolio",
   description: "Samaa Elbakry Portfolio",
   icons: {
-    icon: "/code2.png",
+    icon: "/favicon.png",
   },
 };
 
