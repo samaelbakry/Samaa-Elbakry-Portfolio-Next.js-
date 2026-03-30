@@ -73,6 +73,7 @@ const ShowCaseSection = () => {
                 src="/images/mohjito.mp4"
                 autoPlay
                 loop
+                muted
                 preload="auto"
                 playsInline
                 className="rounded-2xl"
@@ -118,6 +119,7 @@ const ShowCaseSection = () => {
                 src="/images/games_reviews.mp4"
                 autoPlay
                 loop
+                muted
                 preload="auto"
                 playsInline
                 className="rounded-2xl"
